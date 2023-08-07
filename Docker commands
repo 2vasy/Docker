@@ -1,0 +1,8 @@
+Docker commands
+
+docker
+docker info
+docker ps
+docker start 
+docker stop
+docker run -d -p 81:80 docker/getting-started
