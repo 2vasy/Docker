@@ -6,3 +6,8 @@ docker ps
 docker start 
 docker stop
 docker run -d -p 81:80 docker/getting-started
+docker pull 
+docker docker run -it --name MyUbuntu ubuntu
+docker build 
+docker image rm id or name
+docker run -p 3001:8001 id or name(1326c371eca)
