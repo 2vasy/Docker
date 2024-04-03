@@ -13,3 +13,9 @@ docker docker run -it --name MyUbuntu ubuntu
 docker build 
 docker image rm id or name
 docker run -p 3001:8001 id or name(1326c371eca)
+
+*******
+docker container stats
+docker compose up --build -d
+docker stop $(docker ps -a -q)
+
