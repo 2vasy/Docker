@@ -18,4 +18,7 @@ docker run -p 3001:8001 id or name(1326c371eca)
 docker container stats
 docker compose up --build -d
 docker stop $(docker ps -a -q)
+docker logs -f {container_id}
+
+где {container_id} - это значение из колонки CONTAINER ID при вызове команды docker ps
 
